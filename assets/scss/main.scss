@@ -1,0 +1,13 @@
+// Vendors
+@import './vendors/bootstrap-4/scss/bootstrap.scss';
+
+// Base
+@import './base/normalize';
+@import './base/fonts';
+
+// Components
+@import './components/thumbnails';
+
+// Settings
+@import './settings/mixins';
+@import './settings/utilities';
