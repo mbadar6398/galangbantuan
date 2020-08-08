@@ -1,0 +1,87 @@
+.topbar {
+    background: #b00707;
+    padding: .5rem;
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__toggler {
+        margin-right: 1rem;
+        @media (min-width: 992px) {
+            display: none;
+        }
+        font-size: 28px;
+    }
+
+    &__brand {
+        margin-right: 3rem;
+        color: #ffffff;
+
+        &__image {
+            height: 50px;
+        }
+    }
+
+    &__search {
+        position: relative;
+        display: none;
+
+        @media (min-width: 992px) {
+            display: block;
+        }
+
+        &__input {
+            background: #8b0303;
+            border: solid 1px #8b0303;
+            border-radius: 5px;
+            padding: .5rem 1rem;
+            color: #ffffff;
+            outline: 0;
+        }
+
+        &__button {
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: transparent;
+            border: 0;
+            cursor: pointer;
+            color: #ffffff;
+            padding: 0;
+        }
+    }
+
+
+    &__menu {
+        padding: 0;
+        margin: 0 0 0 auto;
+        list-style-type: none;
+        display: none;
+
+        @media (min-width: 992px) {
+            display: block;
+        }
+
+        &__list {
+            display: inline-block;
+        }
+
+        &__link {
+            display: block;
+            color: #ffffff;
+            padding: 1.25rem 1rem;
+            font-size: 16px;
+            text-decoration: none !important;
+            font-weight: 600;
+            transition: background .25s;
+
+            &:hover {
+                color: #f9f9f9;
+                @include setBgColorAndHover(#b00707);
+            }
+        }
+    }
+}
