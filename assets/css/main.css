@@ -4607,6 +4607,7 @@ template {
   content: "asdasdasd";
 }
 
+<<<<<<< HEAD
 .button {
   font-size: 16px;
   padding: 0.813rem 1.688rem;
@@ -4655,6 +4656,89 @@ template {
 .button--redoutline {
   color: #be0808;
   border: solid 1px #be0808;
+=======
+.topbar {
+  background: #b00707;
+  padding: 0.5rem;
+}
+.topbar .container {
+  display: flex;
+  align-items: center;
+}
+.topbar__toggler {
+  margin-right: 1rem;
+  font-size: 28px;
+}
+@media (min-width: 992px) {
+  .topbar__toggler {
+    display: none;
+  }
+}
+.topbar__brand {
+  margin-right: 3rem;
+  color: #ffffff;
+}
+.topbar__brand__image {
+  height: 50px;
+}
+.topbar__search {
+  position: relative;
+  display: none;
+}
+@media (min-width: 992px) {
+  .topbar__search {
+    display: block;
+  }
+}
+.topbar__search__input {
+  background: #8b0303;
+  border: solid 1px #8b0303;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  outline: 0;
+}
+.topbar__search__button {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 0;
+}
+.topbar__menu {
+  padding: 0;
+  margin: 0 0 0 auto;
+  list-style-type: none;
+  display: none;
+}
+@media (min-width: 992px) {
+  .topbar__menu {
+    display: block;
+  }
+}
+.topbar__menu__list {
+  display: inline-block;
+}
+.topbar__menu__link {
+  display: block;
+  color: #ffffff;
+  padding: 1.25rem 1rem;
+  font-size: 16px;
+  text-decoration: none !important;
+  font-weight: 600;
+  transition: background 0.25s;
+}
+.topbar__menu__link:hover {
+  color: #f9f9f9;
+  background-color: #b00707;
+}
+.topbar__menu__link:hover:hover {
+  background-color: #970606;
+>>>>>>> feature/navbar
 }
 
 /*# sourceMappingURL=main.css.map */
