@@ -29,6 +29,10 @@
       padding: 0.5rem 0.813rem;
       box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
   }
+  &--longlogin{
+      width: 100%;
+      box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
+  }
   &--white{
       background-color: #ffffff;
       box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
@@ -38,13 +42,31 @@
       background-color: transparent;
   }
   &--red{
-      color: white;;
+      color: white;
       background-color: #be0808;
       box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
   }
   &--redoutline{
       color: #be0808;
       border: solid 1px #be0808;
+  }
+  &--google{
+    border: 0;
+    width: 100%;
+    color: white;
+    background-color: #dd0404;
+  }
+  &--facebook{
+    border: 0;
+    width: 100%;
+    color: white;
+    background-color: #3b5999;
+  }
+  &--donasi{
+    background-color: #171544;
+    color: white;
+    border: 0;
+    ;
   }
 }
 

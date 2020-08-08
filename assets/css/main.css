@@ -4595,6 +4595,19 @@ template {
   font-weight: 700;
   src: url("../fonts/Avenir_Next_Pro_Full/AvenirNextLTPro-Bold.otf") format("opentype");
 }
+.link {
+  color: #be0808;
+  text-decoration: none;
+}
+
+.logincard {
+  width: 42%;
+  background-color: white;
+  box-shadow: 0 0 15px 0 rgba(150, 150, 150, 0.27);
+  border-radius: 10px;
+  border-bottom-right-radius: 60px;
+}
+
 .thumbnails {
   height: 200px;
   width: 200px;
@@ -4607,56 +4620,6 @@ template {
   content: "asdasdasd";
 }
 
-<<<<<<< HEAD
-.button {
-  font-size: 16px;
-  padding: 0.813rem 1.688rem;
-  border-radius: 5px;
-  border: solid 1px #ffffff;
-}
-.button--shaped {
-  border-bottom-right-radius: 20px;
-  border: 0;
-  box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
-}
-.button--shaped.button--large {
-  border-bottom-right-radius: 30px;
-}
-.button--shaped.button--medium {
-  border-bottom-right-radius: 25px;
-}
-.button--large {
-  font-size: 18px;
-  padding: 1rem 5.125rem;
-  box-shadow: 0 0 12px 0 rgba(112, 6, 6, 0.24);
-}
-.button--medium {
-  font-size: 16px;
-  padding: 1rem 2.625rem;
-  box-shadow: 0 0 12px 0 rgba(112, 6, 6, 0.24);
-}
-.button--small {
-  font-size: 12px;
-  padding: 0.5rem 0.813rem;
-  box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
-}
-.button--white {
-  background-color: #ffffff;
-  box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
-}
-.button--transparent {
-  color: white;
-  background-color: transparent;
-}
-.button--red {
-  color: white;
-  background-color: #be0808;
-  box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
-}
-.button--redoutline {
-  color: #be0808;
-  border: solid 1px #be0808;
-=======
 .topbar {
   background: #b00707;
   padding: 0.5rem;
@@ -4738,7 +4701,77 @@ template {
 }
 .topbar__menu__link:hover:hover {
   background-color: #970606;
->>>>>>> feature/navbar
+}
+
+.button {
+  font-size: 16px;
+  padding: 0.813rem 1.688rem;
+  border-radius: 5px;
+  border: solid 1px #ffffff;
+}
+.button--shaped {
+  border-bottom-right-radius: 20px;
+  border: 0;
+  box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
+}
+.button--shaped.button--large {
+  border-bottom-right-radius: 30px;
+}
+.button--shaped.button--medium {
+  border-bottom-right-radius: 25px;
+}
+.button--large {
+  font-size: 18px;
+  padding: 1rem 5.125rem;
+  box-shadow: 0 0 12px 0 rgba(112, 6, 6, 0.24);
+}
+.button--medium {
+  font-size: 16px;
+  padding: 1rem 2.625rem;
+  box-shadow: 0 0 12px 0 rgba(112, 6, 6, 0.24);
+}
+.button--small {
+  font-size: 12px;
+  padding: 0.5rem 0.813rem;
+  box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
+}
+.button--longlogin {
+  width: 100%;
+  box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
+}
+.button--white {
+  background-color: #ffffff;
+  box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
+}
+.button--transparent {
+  color: white;
+  background-color: transparent;
+}
+.button--red {
+  color: white;
+  background-color: #be0808;
+  box-shadow: 0 0 6px 0 rgba(108, 112, 6, 0.24);
+}
+.button--redoutline {
+  color: #be0808;
+  border: solid 1px #be0808;
+}
+.button--google {
+  border: 0;
+  width: 100%;
+  color: white;
+  background-color: #dd0404;
+}
+.button--facebook {
+  border: 0;
+  width: 100%;
+  color: white;
+  background-color: #3b5999;
+}
+.button--donasi {
+  background-color: #171544;
+  color: white;
+  border: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
