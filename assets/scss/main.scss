@@ -1,5 +1,5 @@
 // Vendors
-@import './vendors/bootstrap-4/scss/bootstrap.scss';
+@import './vendors/bootstrap-4/scss/bootstrap-grid.scss';
 
 // Base
 @import './base/normalize';
@@ -7,6 +7,7 @@
 
 // Components
 @import './components/thumbnails';
+@import './components/button';
 
 // Settings
 @import './settings/mixins';
